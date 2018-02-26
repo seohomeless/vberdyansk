@@ -1,0 +1,568 @@
+body {
+	font-family: 'Scada', sans-serif;
+	font-size: 13pt;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	color: #585858;
+	height: 100%;
+	background-image: url('/img/f2.png'); 
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: white;
+}
+
+textarea {
+    color: black;
+    overflow: auto;
+}
+.gorod {
+	display: inline-block;
+	width: 48%;
+	float: left;
+	padding: 1%;
+	margin: 1%;
+	background: white;
+	border: 1px solid silver;
+	border-radius: 4px;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.disk {
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+.add {
+	 background-color: #1cc85c !important;
+    border-radius: 8px !important;
+    color: white !important;
+    padding: 10px !important;
+}
+
+.admin {
+	position: fixed;
+	z-index: 2000;
+	width: 100%;
+}
+.adminka {
+	 background: #000 none repeat scroll 0 0;
+    height: 37px;
+    line-height: 25px;
+    padding: 5px 50px 5px 1px;
+    position: relative;
+	
+}
+
+
+.prf {
+	background: url('/img/index.png'); width: 100%; height: 200px; background-size: cover; background-position: center center; margin-bottom: 30px;
+}
+
+.prf2
+{
+	font-size: 50px; color: white; margin: 0 auto; width: 850px; text-align: center; padding-top: 20px; padding-bottom: 20px; 	
+}
+
+.prf2 h2 {
+font-size: 49px; color: white;  font-family: MyriadPro,sans-serif !important;  text-shadow: 1px 1px 1px #1e1e1e; padding-top: 30px;
+}
+
+.prf2 h1 {
+font-size: 49px; color: white;  font-family: MyriadPro,sans-serif !important;  text-shadow: 1px 1px 1px #1e1e1e; padding-top: 30px;
+}
+
+.admintab {
+	width: 100%;
+}
+
+.admintab td {
+	padding: 10px;
+}
+
+.ava {
+	
+	position: relative;
+	top: -10px;
+}
+
+
+.adminka li {
+list-style: none;
+	float: left;
+	
+	
+}
+
+.adminka a {
+	color: white !important;
+	font-size: 10pt;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 4px;
+padding-bottom: 4px;
+}	
+
+
+
+.adminka a:hover {
+	color: white !important;
+	font-size: 10pt;
+	text-decoration: none;
+	background: #444444;
+	border-radius: 10px;
+	padding-left: 10px;
+padding-right: 10px;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+
+
+.highlight  {
+    background-color: #fff07b;
+	padding: 5px;
+	font-weight: bold;
+    box-shadow: 0 0 0 2px #fff07b;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.tabs{
+    display:inline-block;
+}
+.tabs > div{
+    padding-top:10px;
+}
+.tabs ul{
+    margin:0px;
+    padding:0px;
+}
+.tabs ul:after{
+    content:"";
+    display:block;
+    clear:both;
+    height:5px;
+    background:#46c765;
+}
+.tabs ul li{
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    display:block;
+    float:left;
+    padding:10px 4px;
+    background:#e9eaeb;
+    color:#707070;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+    background:#46c765;
+    color:#fff;
+}
+.tabs ul li:hover{
+    background:#d6d6d7;
+}
+@font-face {
+    font-family: "MyriadPro";
+    src: local("MyriadPro"), url('/fonts/MyriadPro.otf');
+}
+
+.navbar {
+	font-family: MyriadPro,sans-serif !important; 
+}
+
+
+.tabs {
+    width: 791px;
+}
+.kva2  {
+    padding-bottom: 16px !important;
+}
+
+.kva  {
+    height: 121px;
+    padding-top: 23px !important;
+    text-align: center;
+    width: 32%;
+}
+
+.menus {
+    float: left;
+    margin: 0 auto;
+    width: 700px;
+	padding-left: 70px;
+}
+.vxod {
+	float: right;
+	width: 260px;
+}
+.dob {
+	position: relative;
+	left: 110px;
+	top: 8px;
+}
+
+.dob a {
+	background-color: #1cc85c !important;
+	color: white !important;
+	 padding-bottom: 10px  !important;
+	 border-radius: 8px  !important;
+    padding-top: 10px  !important;
+	
+	
+
+    padding-left: 10px  !important;
+    padding-right: 10px  !important;
+  
+	
+	
+}
+
+.dob a:hover {
+	background-color: #00af41 !important;
+	color: white !important;
+	 padding-bottom: 10px  !important;
+	 border-radius: 8px  !important;
+    padding-top: 10px  !important;
+}
+
+
+
+.menus li {
+	list-style: none;
+	float: left;
+	padding-right: 25px;
+	padding-top: 45px;
+}
+.navbar-nav > li > a {
+    padding-bottom: 14px;
+    padding-top: 17px ;
+}
+
+.menus li a {
+    color: #2592c4;
+    display: block;
+    font-size: 26px;
+    outline: 0 none;
+    text-decoration: none;
+}
+.dropdown-menu li a {
+	font-size: 21px;
+}
+.h1, h1 {
+    font-size: 29px !important;
+}
+
+.dropdown-menu li a:hover {
+	font-size: 21px !important;
+}
+
+.dropdown-menu li {
+width: 100% !important;
+    padding: 0px !important;
+
+}
+
+.menus li a:hover {
+    color: #2592c4;
+    display: block;
+    font-size: 26px;
+    outline: 0 none;
+    text-decoration: underline;
+}
+
+h1 {
+	font-family: MyriadPro,sans-serif !important; 
+}
+h2 {
+	font-family: MyriadPro,sans-serif !important; 
+}
+
+.dropdown-menu  {
+
+ color: white;
+ 
+}
+#poisk > input:hover {
+	opacity: 0.8;
+}
+
+.owl-dots {
+    margin-bottom: 17px;
+}
+.comments2 {
+background: #4ab1ce none repeat scroll 0 0;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    padding-left: 30px;
+	  padding-bottom: 30px;
+	    padding-top: 1px;
+		max-width: 1300px;
+		margin: 0 auto;
+}
+
+#filternagl select {
+		padding: 8px;
+}
+#fornin2  {
+		padding: 8px;
+		color: #4b4b4b;
+}
+
+
+#fornin1  {
+		padding: 8px;
+		color: #4b4b4b;
+}
+.otz {
+    float: left;
+    height: 0;
+    left: 300px;
+    position: relative;
+    top: -158px;
+    width: 300px;
+}
+
+.comer {
+    border: 1px solid #d3e0e9;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+	background: white;
+}
+
+
+#formtop input  {
+	
+	  background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 29px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+	position: relative;
+	top: -5px;
+}
+
+
+
+#formtop  select  {
+	
+	  background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 29px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+	position: relative;
+	top: -5px;
+}
+
+
+
+#poisk > input {
+ background-color: #00dcb1;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+   border-radius: 0px !important;
+    height: 46px;
+  
+    position: relative;
+    text-align: center;
+    top: -14px;
+    width: 162px;
+}
+
+.pri {
+	   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+   
+    color: #fff;
+    display: block;
+    font-size: 21px;
+    height: 37px;
+    left: 0; 
+    line-height: 42px;
+    padding-left: 21px;
+    padding-right: 21px;
+    position: absolute;
+    top: 22px;
+    z-index: 5;
+}
+
+.pice {
+	   border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    top: 26px;
+	
+}
+
+
+
+
+
+
+.rooms {
+	width: 24%;
+	float: left;
+	height: 430px;
+	background: white;
+	margin: 0.5%;
+	position: sticky;
+	border-radius: 6px;
+}
+#kv {
+    color: white;
+    height: 0;
+    margin: 0 auto;
+    position: relative;
+    top: -36px;
+    width: 182px;
+    z-index: 1000;
+}
+
+.rooms:hover {
+	  box-shadow: 0 0 7px 0 #c0c5c8;
+}
+
+.container {
+	width: 1300px !important;
+} 
+
+.navbar {
+    border: 1px solid transparent;
+    margin-bottom: 0px !important;
+    min-height: 125px;
+    position: relative;
+}
+
+#filternagl select {
+	color: #4b4b4b;
+}
+
+#cena1 > input {
+    width: 69px;
+}
+#cena2 > input {
+    width: 69px;
+}
+
+#filternagl {max-width: 1050px;
+ background: url(/img/pois.png); 
+ padding-top: 35px !important;
+ padding: 10px; 
+ margin-top: 20px;
+ margin-bottom: 25px; 
+ width: 90%; 
+ margin: 0 auto;
+ color: white;
+ height: 100px;
+}
+#fornin:hover {
+	background: linear-gradient(to top, #fe9f1d, #feb835);
+}
+
+
+
+
+
+#fornin {
+   background: rgba(0, 0, 0, 0) linear-gradient(to top, #fe8505, #fed14c) repeat scroll 0 0;
+    border-color: #fee7a1 -moz-use-text-color -moz-use-text-color;
+    border-radius: 3px;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    left: 16px;
+    padding: 10px 20px;
+    position: relative;
+    text-shadow: 1px 1px 1px #fee7a1;
+    top: -3px;
+}
+
+.owl-prev {
+    background-image: url('/tema/arrow.svg')  !important;
+    border-radius: 68px;
+    cursor: pointer;
+    display: block;
+    height: 68px;
+    left: 0;
+    margin-left: 21px;
+    margin-top: -34px;
+    position: absolute;
+    top: 35%;
+    width: 68px;
+    z-index: 50;
+	font-size: 0px  !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  border-radius: 50px !important;
+}
+
+
+.owl-next {
+    background-image: url('/tema/arrow.svg') !important;
+    border-radius: 68px;
+    cursor: pointer;
+    display: block;
+    height: 68px;
+    margin-right: 21px;
+    margin-top: -34px;
+    position: absolute;
+    right: 0;
+    top: 35%;
+    transform: scaleX(-1);
+    width: 68px;
+	font-size: 0px  !important;
+    z-index: 50;
+}
+
+.rooms {
+	font-size: 12px;
+}
+.rooms h3 {
+	  display: inline-block;
+    font-size: 15px;
+font-weight: 700;
+    line-height: 14px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+	padding: 0px;
+    overflow: hidden;
+}
+
+#niz a {
+	color: white !important;
+}
+
+#niz {width: 100%; color: white !important; min-height: 199px; background-image: url('/img/niz.jpg'); margin-top: 25px; padding-top: 40px; background-color: #258fcd; }
+
+footer {width: 94%; color: white; max-width: 1400px; margin: 0 auto;}
